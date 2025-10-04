@@ -1,4 +1,4 @@
-const SHEET_WEB_APP_URL = "YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL"; // Replace later
+const SHEET_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzcGFP-oVgvh5tnWldFqwYaMRhVZootEhxwnlTRhw5UATLfS9S-wMqtOv9agkMOYU6a5g/exec"; // Replace later
 
 let clients = JSON.parse(localStorage.getItem('clients')) || [];
 let selectedClient = null;
